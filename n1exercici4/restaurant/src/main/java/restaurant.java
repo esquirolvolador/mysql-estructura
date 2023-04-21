@@ -15,7 +15,7 @@ public class restaurant {
 
   public static void main(String[] args) {
 
-    ConnectionString connectionString = new ConnectionString("mongodb+srv://esquirolvolador" + ":Sedamisha5" + "@cluster0.fgdxy6l.mongodb.net/?retryWrites=true&w=majority");
+    ConnectionString connectionString = new ConnectionString("mongodb+srv://esquirolvolador" + ":lalal" + "@cluster0.fgdxy6l.mongodb.net/?retryWrites=true&w=majority");
     MongoClientSettings settings = MongoClientSettings.builder()
             .applyConnectionString(connectionString)
             .build();
